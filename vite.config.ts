@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/31-ignite-timer/"
+  base: process.env.NODE_ENV === "production" ? "/04-ignite-timer/" : "/", 
 })
