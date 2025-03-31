@@ -5,5 +5,5 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   // base: process.env.NODE_ENV === "production" ? "/04-ignite-timer/" : "/",
-  base: "/04-ignite-timer/",
+  base: "/31-ignite-timer/",
 });
