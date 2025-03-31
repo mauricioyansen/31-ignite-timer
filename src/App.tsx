@@ -8,7 +8,7 @@ import { CyclesContextProvider } from "./contexts/CyclesContext";
 export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <HashRouter basename="/04-ignite-timer">
+      <HashRouter basename="/31-ignite-timer">
         <CyclesContextProvider>
           <Router />
         </CyclesContextProvider>
